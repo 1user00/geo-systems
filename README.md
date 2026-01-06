@@ -1,9 +1,16 @@
-📘 What this code does
-Loads a vector file (shapefile) obtained after classifying a satellite image.
+📘 Project Description
 
-Filters geographic features by the CLASS_NAME == "Class 1" — these are water bodies.
+This project demonstrates processing and validation of geospatial vector data derived from satellite image classification.
 
-Builds a map with the selected features using GeoPandas and Matplotlib.
+The script:
+
+Loads classified vector data (shapefile)
+
+Filters geographic features based on attribute values (water bodies)
+
+Visualizes selected features on a map for validation and analysis
+
+Technologies: Python, GeoPandas, Matplotlib
 
 
 
