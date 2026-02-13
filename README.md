@@ -1,16 +1,20 @@
-📘 Project Description
+## Project Overview
+Extraction and validation of water bodies from satellite image
+classification results using GeoPandas.
 
-This project demonstrates processing and validation of geospatial vector data derived from satellite image classification.
+## Tools
+- Python
+- GeoPandas
+- Matplotlib
 
-The script:
+## Repository structure
+- src/ — scripts
+- data/ — input and output data
+- figures/ — result maps
 
-Loads classified vector data (shapefile)
-
-Filters geographic features based on attribute values (water bodies)
-
-Visualizes selected features on a map for validation and analysis
-
-Technologies: Python, GeoPandas, Matplotlib
+## How to run
+pip install -r requirements.txt
+python src/main.py
 
 
 
